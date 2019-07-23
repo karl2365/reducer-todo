@@ -19,7 +19,6 @@ class ListForm extends React.Component {
   };
 
   render() {
-    console.log('rendering form');
     return (
       <form onSubmit={this.submitItem}>
         <input
