@@ -16,7 +16,6 @@ const App = () => {
   };
 
   const toggleItem = itemId => {
-    console.log('id', itemId)
     dispatch({ type: 'TOGGLE_ITEM', payload: itemId });
   };
 
