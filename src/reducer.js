@@ -15,11 +15,7 @@ export const initialState = {
         id: 1235,
         completed: false
       },
-      {
-        name: 'Drink',
-        id: 1246,
-        completed: false
-      },
+   
       {
         name: 'Clean',
         id: 1237,

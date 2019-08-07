@@ -19,7 +19,6 @@ class ListForm extends React.Component {
   };
 
   render() {
-    console.log('rendering form');
     return (
       <form onSubmit={this.submitItem}>
         <input
@@ -28,7 +27,7 @@ class ListForm extends React.Component {
           name="item"
           onChange={this.handleChanges}
         />
-        <button>Add</button>
+        <button>Add Todo</button>
       </form>
     );
   }

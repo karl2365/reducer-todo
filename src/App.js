@@ -1,5 +1,4 @@
 import React, { useReducer } from 'react';
-import ReactDOM from 'react-dom';
 
 import { reducer, initialState } from './reducer';
 
@@ -16,7 +15,6 @@ const App = () => {
   };
 
   const toggleItem = itemId => {
-    console.log('id', itemId)
     dispatch({ type: 'TOGGLE_ITEM', payload: itemId });
   };
 

@@ -4,7 +4,7 @@ import Item from './Item';
 
 const TodoList = props => {
   return (
-    <div className="shopping-list">
+    <div className="todo-list">
       {props.todo.map(item => (
         <Item key={item.id} item={item} toggleItem={props.toggleItem} />
       ))}
